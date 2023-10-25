@@ -22,12 +22,7 @@ Controls
 2. LMB + cursor - adjusting the angle view
 3. F/G - increase/decrease fog density
 
-Libraries used
-<iostream>
-<cmath>
-<GL/glut.h>
-<stb_image.h>
-<irrKlang/irrKlang.h>
+Libraries used: iostream, cmath, GL/glut.h, stb_image.h, irrKlang/irrKlang.h
 
 Compilation instructions
 1. 'stb' folder: stb_image.h header file must be placed in the standard library directory (/user/include)

@@ -26,9 +26,9 @@ Libraries used: iostream, cmath, GL/glut.h, stb_image.h, irrKlang/irrKlang.h
 
 Compilation instructions
 1. 'stb' folder: stb_image.h header file must be placed in the standard library directory (/user/include)
-2. 'irrKlang_general' folder:
+2. 'irrKlang' folder:
    - libIrrKlang.so must be placed in the comiler directory (e.g. /user/lib/x86_64-linux-gnu)
-   - the entire 'irrKlang' folder (the one inside the ambient 'irrKlang_general') must be placed in the standard library directory (/user/include)
+   - the entire 'irrKlang' folder must be placed in the standard library directory (/user/include)
    - .ogg and .jpg files must be in the same directory with the source code
 
 Terminal command: g++ sphere3.0.2.cpp -lglut -lGLU -lGL -lIrrKlang

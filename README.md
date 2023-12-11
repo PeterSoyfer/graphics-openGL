@@ -1,8 +1,15 @@
 # graphics-openGL
 One interesting computer graphics project written in C++ using OpenGL library.
 
+Compilation instructions
+1. Download and extract the file 'Soyfer-OpenGL-Task-3.0.3.7z'
+2. libIrrKlang.so must be placed in the compiler directory (e.g. /user/lib/x86_64-linux-gnu).
+   I recommend simply copying and pasting this library under Root permissions.
+3. Execute the following command in Terminal: "g++ sphere3.0.3.cpp -lglut -lGLU -lGL -lIrrKlang"
+4. Then open 'a.out' file and enjoy!
+
 System configuration
-1. OS: Ubuntu 18.04.4 LTS (Bionic Beaver)
+1. OS: Ubuntu 18.04.4 LTS (Bionic Beaver); also successfully tested on Debian GNU/Linux 12 (BookWorm)
 2. CPU: Intel Core i3-8145U 2.10 GHz
 3. RAM: 2 GB
 4. GPU: Intel UHD Graphics 620
@@ -23,12 +30,3 @@ Controls
 3. F/G - increase/decrease fog density
 
 Libraries used: iostream, cmath, GL/glut.h, stb_image.h, irrKlang/irrKlang.h
-
-Compilation instructions
-1. 'stb' folder: stb_image.h header file must be placed in the standard library directory (/user/include)
-2. 'irrKlang' folder:
-   - libIrrKlang.so must be placed in the comiler directory (e.g. /user/lib/x86_64-linux-gnu)
-   - the entire 'irrKlang' folder must be placed in the standard library directory (/user/include)
-   - .ogg and .jpg files must be in the same directory with the source code
-
-Terminal command: g++ sphere3.0.2.cpp -lglut -lGLU -lGL -lIrrKlang
